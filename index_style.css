@@ -6,7 +6,6 @@ nav{
     background: #ff0000;
     background: linear-gradient(84deg, rgba(255, 0, 0, 1) 0%, rgba(175, 89, 222, 1) 50%, rgba(0, 17, 255, 1) 100%);
 }
-
 .nav .nav-item .nav-link{
     color:white ;
 }
@@ -16,7 +15,25 @@ nav{
 .nav .nav-link{
     color: rgb(207, 207, 207);
 }
-
+.carousel-item{
+    height: 400px;
+}
+.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+    background-color: #dccffa !important;
+    color:black !important;
+    text-decoration: none !important;
+    border: hidden !important;
+    border-color: #dccffa !important;
+    box-shadow: 0px !important;
+}
+.accordion-button:focus {
+    border-color: #FFF !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #e5dcf1 !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #dccffa !important;
+}
 .footer{
     background: #f7dcdc;
     background: linear-gradient(84deg, rgba(247, 220, 220, 1) 1%, rgba(251, 222, 252, 1) 50%, rgba(212, 212, 250, 1) 100%);
