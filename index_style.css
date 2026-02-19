@@ -6,14 +6,28 @@ nav{
     background: #ff0000;
     background: linear-gradient(84deg, rgba(255, 0, 0, 1) 0%, rgba(175, 89, 222, 1) 50%, rgba(0, 17, 255, 1) 100%);
 }
-.nav .nav-item .nav-link{
+.navbar-collapse .nav-link{
     color:white ;
 }
-.nav .nav-link:hover{
+.navbar-collapse .nav-link:hover{
     color: rgb(207, 207, 207);
 }
-.nav .nav-link{
-    color: rgb(207, 207, 207);
+.navbar-nav .nav-link.active{
+    color: rgb(207, 207, 207) !important;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3e%3Cpath stroke='%23DADAF7' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3e%3C/svg%3e") !important;
+}
+.navbar-toggler {
+    border-color: #DADAF7 !important;
+}
+.navbar-toggler:focus {
+    border-color: #DADAF7 !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #e5dcf1 !important;
+}
+.navbar-nav {
+    align-items: flex-end;
 }
 .song .card{
     background-color: #e8dfff;
@@ -50,11 +64,8 @@ nav{
     background: #f7dcdc;
     background: linear-gradient(84deg, rgba(247, 220, 220, 1) 1%, rgba(251, 222, 252, 1) 50%, rgba(212, 212, 250, 1) 100%);
 }
-.footer1{
-    padding-left: 300px;
-}
 .footer2{
-    padding-left: 75px;
+    padding-left: 50px;
 }
 .footer3{
     padding-left: 50px;
