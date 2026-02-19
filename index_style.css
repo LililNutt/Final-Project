@@ -15,8 +15,17 @@ nav{
 .nav .nav-link{
     color: rgb(207, 207, 207);
 }
-.carousel-item{
-    height: 400px;
+.song .card{
+    background-color: #e8dfff;
+    border: 1;
+    border-color: #c9b3ff;
+}
+.act .accordion-button{
+    background-color: #e8dfff;
+}
+.act .accordion-item{
+    border: 1;
+    border-color: #c9b3ff;
 }
 .accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
     background-color: #dccffa !important;
@@ -34,6 +43,9 @@ nav{
 .accordion-button:not(.collapsed) {
     background-color: #dccffa !important;
 }
+.act .accordion-body{
+    background-color: #f1edfc;
+}
 .footer{
     background: #f7dcdc;
     background: linear-gradient(84deg, rgba(247, 220, 220, 1) 1%, rgba(251, 222, 252, 1) 50%, rgba(212, 212, 250, 1) 100%);
@@ -42,7 +54,7 @@ nav{
     padding-left: 300px;
 }
 .footer2{
-    padding-left: 50px;
+    padding-left: 75px;
 }
 .footer3{
     padding-left: 50px;

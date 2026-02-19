@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soyu's Soijhuu</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Sign up • Soyu's Soijhuu</title>
+    <link rel="stylesheet" href="/login_style.css">
 </head>
 <body>
     <div class="login-container">
@@ -14,7 +14,7 @@
                 <p>Sign up to your account</p>
             </div>
             
-            <form class="login-form" id="loginForm" novalidate>
+            <form class="login-form" id="loginForm" action="/index.html">
                 <div class="form-group">
                     <div class="input-wrapper">
                         <input type="username" id="username" name="username" required autocomplete="username">
@@ -39,10 +39,10 @@
                     </div>
                 </div>
 
-                <a class="btn login-btn" href="/index.html" role="button" type="submit">
+                <button type="submit" class="login-btn btn">
                     <span class="btn-text">Sign Up</span>
                     <span class="btn-loader"></span>
-                </a>
+                </button>
             </form>
 
             <div class="signin-link">
